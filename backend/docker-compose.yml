@@ -1,0 +1,37 @@
+version: "3"
+services:
+    influxdb:
+      image: influxdb:latest
+      container_name: influxdb
+      env_file:
+        - 'env.influxdb'
+      networks:
+        - node_stack
+      ports:
+        - 8086:8086
+      volumes:
+        - /var/lib/influxdb
+        - ./influxdb.conf:/etc/influxdb/influxdb.conf
+         
+    telegraf:
+      image: telegraf:latest
+      container_name: telegraf
+      networks:
+        - node_stack
+      volumes:
+        - ./telegraf.conf:/etc/telegraf/telegraf.conf
+        
+    grafana:
+      image: grafana/grafana:latest
+      container_name: grafana
+      env_file:
+        - 'env.grafana'
+      networks:
+        - node_stack
+      ports:
+        - 3000:3000
+      volumes:
+        - ./provisioning:/etc/grafana/provisioning
+
+networks:
+    node_stack:
