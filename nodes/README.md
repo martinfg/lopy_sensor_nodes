@@ -1,7 +1,3 @@
-# sensor node with LoPy4
-
-!Hier muss noch Text rein!
-
 ## Upload the software
 
 To upload the files to the LoPy, the easiest way is to use the pymakr-Plugin for Atom or Visual Studio Code:
@@ -39,7 +35,7 @@ id | type                | value                         | sensor
 | gas.py        | [Seeed Studio (GitHub)](https://github.com/Seeed-Studio)  | [Mutichannel_Gas_Sensor (GitHub)](https://github.com/Seeed-Studio/Mutichannel_Gas_Sensor)                                         | [GNU GENERAL PUBLIC LICENSE](https://github.com/Seeed-Studio/Mutichannel_Gas_Sensor/blob/master/LICENSE.txt) | licence for C-version |
 | bme280.py     | [Rui Santos (GitHub)](https://github.com/RuiSantosdotme)  | [BME280.py (GitHub)](https://github.com/RuiSantosdotme/ESP-MicroPython/blob/master/code/WiFi/HTTP_Client_IFTTT_BME280/BME280.py)  | _none specified_                                                                                             | -                     |
 | micropyGPS.py | [Michael Calvin McCoy (GitHub)](https://github.com/inmcm) | [micropyGPS (GitHub)](https://github.com/inmcm/micropyGPS)                                                                        | [MIT](https://github.com/inmcm/micropyGPS/blob/master/LICENSE)                                               | -                     |
-| mh_z14a.py    | martin                                                    | [mh_z14a.py (GitLab)](https://git.informatik.uni-leipzig.de/koluda/halle/-/blob/master/src/lopy4/node_v1/firmware/lib/mh_z14a.py) | -                                                                                                            | -                     |
+| mh_z14a.py    | martinfg                                                  | -                                                                                                                                 | -                                                                                                            | -                     |
 
 
 
