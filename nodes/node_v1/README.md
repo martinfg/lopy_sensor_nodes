@@ -1,6 +1,6 @@
 ### Node_v1
 
-![picture of node v1](./pictures/IMG_20191206_135151.jpg)
+![picture of node v1](./pictures/img_2.jpg)
 
 #### Sensor Overview
 

@@ -1,6 +1,6 @@
 ### Node_v2
 
-![picture of node v2](./pictures/PXL_20201120_080212048.jpg)
+![picture of node v2](./pictures/img_2.jpg)
 
 #### Sensor Overview
 

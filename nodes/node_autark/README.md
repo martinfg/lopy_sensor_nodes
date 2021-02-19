@@ -1,1 +1,1 @@
-![picture of solar test setup](./pictures/IMG_20200408_122928.jpg)
+![picture of solar test setup](./pictures/img_1.jpg)
